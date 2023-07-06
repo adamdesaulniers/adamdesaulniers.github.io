@@ -4,7 +4,7 @@
  <body>
   <script>
    document.body.onload = () => {
-    let favicon = '<svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 20 20">' + document.getElementById('bowtie').outerHTML + '</svg>'
+    let favicon = '<svg xmlns="http://www.w3.org/2000/svg" fill="grey" viewBox="0 0 20 20">' + document.getElementById('bowtie').outerHTML + '</svg>'
     document.querySelector('link').href = 'data:image/svg+xml;utf8,' + favicon
     let elements = document.querySelectorAll('header,section,section svg,footer')
     for (all of elements) { all.classList.add('reveal') } }
@@ -61,9 +61,6 @@
    </defs>
   </svg>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-JP8DPMJ6EJ"></script>
-  <script>
-   window.dataLayer = window.dataLayer || [] ; function gtag() { dataLayer.push(arguments) }
-   gtag('js', new Date()) ; gtag('config', 'G-JP8DPMJ6EJ')
-  </script>
+  <script> window.dataLayer = window.dataLayer || [] ; function gtag() { dataLayer.push(arguments) } gtag('js', new Date()) ; gtag('config', 'G-JP8DPMJ6EJ') </script>
  </body>
 </html>
